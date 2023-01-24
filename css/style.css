@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+/*Backgrounds*/
+
+.background1 {
+    background-image: url("../img/Background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.backgroundoco {
+    background-color: rgba(12, 12, 14, 0.75);
+    color: white;
+    padding: 20px;
+}
+
+.background2 {
+    background-image: url(../img/Wood.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background3 {
+    background-image: url(../img/rock-stone-abstract-background-texture_41969-1525.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*Section 1*/
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: rgba(2, 3, 37, 0.9);
+}
+
+.Logo1 {
+    cursor: pointer;
+    width: 80px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.navbar a {
+    padding: 0px 20px;
+    color: white;
+}
+
+.navbar a:hover {
+    color: #04087fcc;
+}
+
+.headline {
+    padding: 250px;
+    text-align: center;
+
+    font-size: xx-large;
+    color: white;
+}
+
+/*Section 2*/
+
+.Logo2 {
+    cursor: pointer;
+    width: 40px;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+main {
+    padding: 30px 10%;
+}
+
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ServicesText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.service1,
+.service2,
+.service3,
+.service4 {
+    width: 20%;
+}
+
+/*Section 3*/
+
+.form-group{
+    display: flex;
+    color: white;
+}
+
+.form-group label{
+    width: 200px;
+}
+
+.formsbackground{
+    padding: 10px;
+    background-color: rgba(2, 1, 38,0.8);
+    
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 10%;
+}
